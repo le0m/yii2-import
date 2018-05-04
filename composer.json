@@ -1,0 +1,27 @@
+{
+  "name": "le0m/yii2-import",
+  "description": "An extension for the Yii2 framework to import data from files",
+  "keywords": [
+    "yii2",
+    "import",
+    "csv",
+    "activerecord",
+    "json"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Leo Mainardi",
+      "email": "mainardi.leo@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "le0m\\import\\": "src/"
+    }
+  }
+}
